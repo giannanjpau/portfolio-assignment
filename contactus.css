@@ -1,0 +1,188 @@
+h1 {
+    line-height: 1.5;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 350%;
+    color: rgb(228, 189, 144);
+}
+
+h1:hover
+{
+    color: rgb(255, 255, 255);
+}
+h4, h5{
+    text-align: right;
+    font-size: 60px;
+}
+h6 {
+    font-size: 100%;
+    text-align: left;
+    border-style:ridge;
+    background-color: rgb(255, 243, 231);
+}
+body {
+    background-color:bisque;
+}
+
+li {
+    font-style: normal;
+    font-size: 85%;
+}
+.navbar ul{
+    line-height: 1.5;
+    padding: 0px;
+    list-style-type: none;
+    background-color: rgb(204, 172, 126);
+    border-color: white;
+    border-radius: 15px;
+    margin: 0px;
+    text-align: center;
+    overflow: hidden; 
+    justify-content: space-around;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color:burlywood;
+}
+
+.navbar li{
+    line-height: 1.5;
+    text-align: center;
+    float: left;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+.homepage {
+    background-color: rgb(255, 255, 255);
+}
+
+.homepage:hover {
+    background-color: rgb(204, 172, 126);
+}
+
+h3{
+    text-align: center;
+    font-display: flex;
+    background-color:rgb(255, 255, 255);
+border-color: white;
+border-style:ridge;
+color: rgb(228, 189, 144);
+font-size: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo {
+    text-align: right;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+} 
+p {
+    padding:0px;
+    font-weight:bold;
+    font-display: flex;
+    border-color: white;
+border-style: none;
+margin-block: 40px;
+color:rgb(204, 172, 126);
+font-size: 25px;
+}
+
+.logo2 {
+    text-align: centers;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+p:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.navbar2 ul {
+    padding: 0px;
+    list-style-type: none;
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 0px;
+    text-align: center;
+    overflow: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar2 a{
+    color: rgb(204, 172, 126);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar2 a:hover{
+    background-color:rgb(235, 203, 162);
+    color: rgb(255, 255, 255);
+}
+
+.navbar2 li{
+    float:inline-start;
+}
+
+.contactus {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-left: 40px;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="email"], input[type="text"], textarea {
+    line-height: 30px;
+    margin-left: 40px;
+    width: 400px;
+    padding: 8px;
+    border: 10px;
+    border-color: black;
+    border-radius: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-left: 15px;
+    background-color: rgb(204, 172, 126);
+    color: rgb(255, 255, 255);
+   border: 10px;
+    border-color: black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 243, 231);
+    color: rgb(204, 172, 126);
+}
